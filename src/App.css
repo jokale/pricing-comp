@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  background-color: hsl(240, 78%, 98%);
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute; left: 70px;
+  text-align: center;
+
+}
+
+#card1{
+  background-color: white;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+}
+
+#card2{
+  background-image: linear-gradient(#A3A8F0, #696FDD);
+  align-items: center;
+  width: 400px;
+  height: 560px;
+}
+
+#card3{
+  background-color: white;
+  align-items: center;
+    width: 400px;
+    height: 500px;
+}
