@@ -65,6 +65,18 @@ h1,h2,h6,p{
   font-weight: 700;
 }
 
+h2#heading2{
+  font-size: 20px;
+}
+
+h1#price{
+  font-size: 70px;
+}
+
+
+.solid {
+  border-top: 0.5px solid #bbb;
+}
 /* check box */
 
 .switch {
@@ -87,7 +99,7 @@ h1,h2,h6,p{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #696FDD;
+  background-image: linear-gradient(#A3A8F0, #696FDD);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -105,7 +117,7 @@ h1,h2,h6,p{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: linear-gradient(#A3A8F0, #696FDD);;
 }
 
 input:focus + .slider {
@@ -133,20 +145,23 @@ input:checked + .slider:before {
   background-color: white;
   align-items: center;
   width: 330px;
-  height: 470px;
+  height: 460px;
   margin: 1px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  position: absolute; top: 220px; left: 220px;
+  position: absolute; top: 250px; left: 220px;
+  color: hsl(232, 13%, 33%);
 }
 
 #card2{
   background-image: linear-gradient(#A3A8F0, #696FDD);
   align-items: center;
   width: 350px;
-  height: 560px;
+  height: 520px;
   border-radius: 20px;
-  position: absolute; top: 190px; left: 550px;
+  margin: 1px;
+  position: absolute; top: 220px; left: 550px;
+  color: white;
 
 }
 
@@ -154,9 +169,32 @@ input:checked + .slider:before {
   background-color: white;
   align-items: center;
     width: 330px;
-    height: 500px;
+    height: 460px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    position: absolute; top: 220px; right: 210px;
-
+    position: absolute; top: 250px; right: 203px;
+    color: hsl(232, 13%, 33%);
+    margin: 5px;
 } 
+
+/* buttons */
+
+button#purple {
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(#A3A8F0, #696FDD);
+  border: none;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+button#white {
+  font-family: 'Montserrat', sans-serif;
+  background-image: white;
+  border: none;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: linear-gradient(#A3A8F0, #696FDD);
+}
