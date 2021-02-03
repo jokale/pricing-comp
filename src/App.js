@@ -27,19 +27,20 @@ class App extends React.Component {
            <button id="purple">Learn More</button>
 
         </div>
+        <center>
          <div id="card2">
           <h2 id="heading2" >Professional</h2>
           <h1 id="price2">$249.99</h1>
           <hr class="solid1w"/>
           <h5 id="h51w">1 TB Storage</h5> 
-          <hr class="solid2"/>
+          <hr class="solid2w"/>
            <h5 id="h52w">5 Users Allowed</h5> 
            <hr class="solid3w"/>
            <h5 id="h53w">Send up to 10GB </h5> 
            <hr class="solid4w"/>
            <button id="white">Learn More</button>
-
-        </div>
+       
+        </div> </center>
          <div id="card3">
            <h2 id="heading3">Master</h2>
            <h1 id="price3">$399.99</h1>
