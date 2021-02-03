@@ -21,9 +21,9 @@ class App extends React.Component {
           <h5 id="h51">500 GB Storage</h5>
           <hr class="solid2"/>
            <h5 id="h52">2 Users Allowed</h5>
-           <hr class="solid"/>
+           <hr class="solid3"/>
            <h5 id="h53">Send up to 3GB </h5> 
-           <hr class="solid"/><br></br>
+           <hr class="solid4"/><br></br>
            <button id="purple">Learn More</button>
 
         </div>
@@ -34,9 +34,9 @@ class App extends React.Component {
           <h5 id="h51w">1 TB Storage</h5> 
           <hr class="solid2"/>
            <h5 id="h52w">5 Users Allowed</h5> 
-           <hr class="solid"/>
+           <hr class="solid3w"/>
            <h5 id="h53w">Send up to 10GB </h5> 
-           <hr class="solid"/>
+           <hr class="solid4w"/>
            <button id="white">Learn More</button>
 
         </div>
@@ -47,13 +47,15 @@ class App extends React.Component {
            <h5 id="h51">2 TB Storage</h5> 
            <hr class="solid2"/>
            <h5 id="h52">10 Users Allowed</h5> 
-           <hr class="solid"/>
+           <hr class="solid3"/>
            <h5 id="h53">Send up to 29GB </h5> 
-           <hr class="solid"/>
+           <hr class="solid4"/>
            <button id="purple">Learn More</button>
           </div>
          <img id="top"src={top} className="App-top" alt="top" />
          <img id="bottom"src={bottom} className="App-bottom" alt="bottom" />
+
+
 
     </div>
     );

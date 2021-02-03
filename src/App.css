@@ -172,11 +172,11 @@ input:checked + .slider:before {
   background-color: white;
   align-items: center;
   width: 330px;
-  height: 460px;
+  height: 410px;
   margin: 5px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  position: absolute; top: 250px; left: 220px;
+  position: absolute; top: 290px; left: 220px;
   color: hsl(232, 13%, 33%);
 }
 
@@ -196,10 +196,10 @@ input:checked + .slider:before {
   background-color: white;
   align-items: center;
     width: 330px;
-    height: 460px;
+    height: 410px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    position: absolute; top: 250px; right: 200px;
+    position: absolute; top: 290px; right: 200px;
     color: hsl(232, 13%, 33%);
     margin: 5px;
 } 
@@ -211,9 +211,10 @@ button#purple {
   background-image: linear-gradient(#A3A8F0, #696FDD);
   border: none;
   width: 260px;
-  height: 40px;
+  height: 44px;
   border-radius: 5px;
   color: white;
+  position: absolute; top: 340px; right: 40px;
 }
 
 button#white {
@@ -243,18 +244,40 @@ position: absolute; top: 150px; right: 40px;
 
 .solid2{
   width: 260px;
-  position: absolute; top: 150px; right: 40px;
-  
+  position: absolute; top: 200px; right: 40px;
   }
+  .solid3{
+    width: 260px;
+    position: absolute; top: 250px; right: 40px;
+    
+    }
+    .solid4{
+      width: 260px;
+      position: absolute; top: 300px; right: 40px;
+      
+      }
+      .solid2w{
+        width: 260px;
+        position: absolute; top: 250px; right: 40px;
+        }
+        .solid3w{
+          width: 260px;
+          position: absolute; top: 350px; right: 40px;
+          
+          }.solid4w{
+            width: 260px;
+            position: absolute; top: 450px; right: 40px;
+            
+            }
 
 h5#h51 {
-  position: absolute; top: 150px; right: 110px;
+  position: absolute; top: 156px; right: 110px;
 }
 
 h5#h52 {
-  position: absolute; top: 250px; right: 110px;
+  position: absolute; top: 205px; right: 110px;
 }h5#h53 {
-  position: absolute; top: 350px; right: 110px;
+  position: absolute; top: 255px; right: 110px;
 }
 
 
