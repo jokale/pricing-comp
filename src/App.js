@@ -4,16 +4,37 @@ import bottom from './bottom.svg'
 import top from './top.svg'
 
 class App extends React.Component {
+  handleClick() {
+    var x = document.getElementById("price");
+    if (x.innerHTML === "$199.99") {
+      x.innerHTML = "$19.99";
+    } else {
+      x.innerHTML = "$199.99";
+    }
+    var y = document.getElementById("price2");
+    if (y.innerHTML === "$249.99") {
+      y.innerHTML = "$24.99";
+    } else {
+      y.innerHTML = "$249.99";
+    }
+    var z = document.getElementById("price3");
+    if (z.innerHTML === "$399.99") {
+      z.innerHTML = "$39.99";
+    } else {
+      z.innerHTML = "$399.99";
+    }
+  }
+  
   render(){
       return (
     <div className="App">
           <h1 id="main">Our Pricing</h1>
-          <h5>Monthly</h5>
+          <h5 id="date1">Annually</h5>
           <label class="switch">
-  <input type="checkbox"/> 
-  <span class="slider round"></span>
+  <input  type="checkbox"/> 
+  <span id="slider" class="slider round" onClick={this.handleClick.bind(this)}></span>
 </label>
-     <h5>Anually</h5>
+     <h5 id="date2">Monthly</h5>
         <div id="card1">
           <h2 id="heading1">Basic</h2>
           <h1 id="price">$199.99</h1>

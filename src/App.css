@@ -70,7 +70,7 @@ h1#price{
 }
 h1#price2{
   font-size: 65px;
-  position: absolute;top: 50px;right: 45px;
+  position: absolute;top: 70px;right: 45px;
 }h1#price3{
   font-size: 65px;
   position: absolute;top: 25px;right: 45px;
@@ -186,10 +186,10 @@ input:checked + .slider:before {
   background-image: linear-gradient(#A3A8F0, #696FDD);
   align-items: center;
   width: 350px;
-  height: 460px;
+  height: 480px;
   border-radius: 20px;
   margin: 5px;
-  position: absolute; top: 260px; left: 550px;
+  position: absolute; top: 240px; left: 550px;
   color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   z-index: 1;
@@ -299,4 +299,18 @@ h5#h52w {
   position: absolute; top: 255px; right: 120px;
 }h5#h53w {
   position: absolute; top: 305px; right: 120px;
+}
+
+h5#date1{
+  color:  hsl(234, 14%, 74%);
+  position: absolute; top: 65px; left: 600px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h5#date2{
+  color:  hsl(234, 14%, 74%);
+  position: absolute; top: 65px; right: 600px;
+  font-weight: 700;
+  font-size: 16px;
 }
